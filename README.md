@@ -15,7 +15,7 @@
   <img src="MNews/screenshots/3.png" alt="Главный экран (страница 2)" width="300"/><br>
   Подробности новости <br>
   <img src="MNews/screenshots/4.png" alt="Подробности публикации" width="300"/><br>
-  Показ изображения новости 
+  Показ изображения новости <br>
   <img src="MNews/screenshots/3.png" alt="Просмотр изображения публикации" width="300"/><br>
   </center>
 </div>
