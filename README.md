@@ -8,10 +8,14 @@
 <div>
   Загрузка данных  <br>
   <img src="MNews/screenshots/1.png" alt="Загрузка данных" width="300"/> 
-  <img src="MNews/screenshots/2.png" alt="Главный экран (страница 1, лайки)" width="300"/> Главный экран (страница 1, Добавление лайков </img><br>
-  <img src="MNews/screenshots/3.png" alt="Главный экран (страница 2)" width="300"/>Главный экран (страница 2) </img>
-  <img src="MNews/screenshots/4.png" alt="Подробности публикации" width="300"/>Подробности новости</img>
-  <img src="MNews/screenshots/3.png" alt="Просмотр изображения публикации" width="300"/>Показ изображения новости</img>
+   Главный экран (страница 1, Добавление лайков  <br>
+  <img src="MNews/screenshots/2.png" alt="Главный экран (страница 1, лайки)" width="300"/> 
+ Главный экран (страница 2)  
+  <img src="MNews/screenshots/3.png" alt="Главный экран (страница 2)" width="300"/>
+  Подробности новости 
+  <img src="MNews/screenshots/4.png" alt="Подробности публикации" width="300"/>
+  Показ изображения новости 
+  <img src="MNews/screenshots/3.png" alt="Просмотр изображения публикации" width="300"/>
 </div>
 
 ---
