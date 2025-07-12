@@ -1,7 +1,4 @@
-//
-//  PostTableViewCell.swift
-//  SocialFeedApp
-//
+
 
 import UIKit
 

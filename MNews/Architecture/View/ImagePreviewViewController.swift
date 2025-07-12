@@ -1,7 +1,3 @@
-//
-//  ImagePreviewViewController.swift
-//  SocialFeedApp
-//
 
 import UIKit
 

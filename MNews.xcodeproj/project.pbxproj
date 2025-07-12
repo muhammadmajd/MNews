@@ -17,6 +17,24 @@
 		5262245C2E1DBB900095FF66 /* MNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262245B2E1DBB900095FF66 /* MNewsTests.swift */; };
 		526224662E1DBB900095FF66 /* MNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224652E1DBB900095FF66 /* MNewsUITests.swift */; };
 		526224682E1DBB900095FF66 /* MNewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224672E1DBB900095FF66 /* MNewsUITestsLaunchTests.swift */; };
+		526224752E1DBD0E0095FF66 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224742E1DBD0E0095FF66 /* NetworkManager.swift */; };
+		526224772E1DBEBD0095FF66 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224762E1DBEBD0095FF66 /* CoreDataManager.swift */; };
+		526224792E1DC07D0095FF66 /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224782E1DC07D0095FF66 /* FeedViewModel.swift */; };
+		5262247D2E1DC4180095FF66 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262247C2E1DC4180095FF66 /* PostTableViewCell.swift */; };
+		5262247F2E1DC8910095FF66 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262247E2E1DC8910095FF66 /* FeedViewController.swift */; };
+		526224822E1DDC010095FF66 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 526224812E1DDC010095FF66 /* Lottie */; };
+		526224862E1EB2820095FF66 /* PostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224852E1EB2820095FF66 /* PostDetailViewController.swift */; };
+		526224882E1EB3C50095FF66 /* ImagePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224872E1EB3C50095FF66 /* ImagePreviewViewController.swift */; };
+		5262248A2E1EB5370095FF66 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526224892E1EB5370095FF66 /* Theme.swift */; };
+		5262248C2E1EBD320095FF66 /* UIView+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262248B2E1EBD320095FF66 /* UIView+Styles.swift */; };
+		5262248E2E1EC1CB0095FF66 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5262248D2E1EC1CB0095FF66 /* UIImageView+Extensions.swift */; };
+		52CE12372E22D42F0093E9BA /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE12322E22D42F0093E9BA /* 4.png */; };
+		52CE12382E22D42F0093E9BA /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE12332E22D42F0093E9BA /* 5.png */; };
+		52CE12392E22D42F0093E9BA /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE12342E22D42F0093E9BA /* 3.png */; };
+		52CE123A2E22D42F0093E9BA /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE12352E22D42F0093E9BA /* 2.png */; };
+		52CE123B2E22D42F0093E9BA /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52CE12362E22D42F0093E9BA /* 1.png */; };
+		52CF5FC72E22312E00B92238 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 52CF5FC62E22312E00B92238 /* loading.json */; };
+		52CF5FCA2E2241BB00B92238 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF5FC92E2241BB00B92238 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +69,23 @@
 		526224612E1DBB900095FF66 /* MNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		526224652E1DBB900095FF66 /* MNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNewsUITests.swift; sourceTree = "<group>"; };
 		526224672E1DBB900095FF66 /* MNewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		526224742E1DBD0E0095FF66 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		526224762E1DBEBD0095FF66 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		526224782E1DC07D0095FF66 /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		5262247C2E1DC4180095FF66 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		5262247E2E1DC8910095FF66 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		526224852E1EB2820095FF66 /* PostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewController.swift; sourceTree = "<group>"; };
+		526224872E1EB3C50095FF66 /* ImagePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreviewViewController.swift; sourceTree = "<group>"; };
+		526224892E1EB5370095FF66 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5262248B2E1EBD320095FF66 /* UIView+Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Styles.swift"; sourceTree = "<group>"; };
+		5262248D2E1EC1CB0095FF66 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		52CE12322E22D42F0093E9BA /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = screenshots/4.png; sourceTree = SOURCE_ROOT; };
+		52CE12332E22D42F0093E9BA /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = screenshots/5.png; sourceTree = SOURCE_ROOT; };
+		52CE12342E22D42F0093E9BA /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = screenshots/3.png; sourceTree = SOURCE_ROOT; };
+		52CE12352E22D42F0093E9BA /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = screenshots/2.png; sourceTree = SOURCE_ROOT; };
+		52CE12362E22D42F0093E9BA /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = screenshots/1.png; sourceTree = SOURCE_ROOT; };
+		52CF5FC62E22312E00B92238 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		52CF5FC92E2241BB00B92238 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526224822E1DDC010095FF66 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,6 +137,13 @@
 		526224402E1DBB8D0095FF66 /* MNews */ = {
 			isa = PBXGroup;
 			children = (
+				52CE12312E22D41B0093E9BA /* screenshots */,
+				52CF5FC82E223C2000B92238 /* resourses */,
+				52CF5FC12E21B33B00B92238 /* Persistence */,
+				52CF5FC02E21A49B00B92238 /* Networking */,
+				52CF5FBF2E21915C00B92238 /*  Extensions&Helpers */,
+				52CF5FBA2E218FC300B92238 /* Theme */,
+				52CF5FB82E218F6100B92238 /* Architecture */,
 				526224412E1DBB8D0095FF66 /* AppDelegate.swift */,
 				526224432E1DBB8D0095FF66 /* SceneDelegate.swift */,
 				526224452E1DBB8D0095FF66 /* ViewController.swift */,
@@ -108,7 +151,6 @@
 				5262244D2E1DBB8F0095FF66 /* Assets.xcassets */,
 				5262244F2E1DBB8F0095FF66 /* LaunchScreen.storyboard */,
 				526224522E1DBB8F0095FF66 /* Info.plist */,
-				5262244A2E1DBB8D0095FF66 /* MNews.xcdatamodeld */,
 			);
 			path = MNews;
 			sourceTree = "<group>";
@@ -130,6 +172,105 @@
 			path = MNewsUITests;
 			sourceTree = "<group>";
 		};
+		52CE12312E22D41B0093E9BA /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				52CE12362E22D42F0093E9BA /* 1.png */,
+				52CE12352E22D42F0093E9BA /* 2.png */,
+				52CE12342E22D42F0093E9BA /* 3.png */,
+				52CE12322E22D42F0093E9BA /* 4.png */,
+				52CE12332E22D42F0093E9BA /* 5.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
+		52CF5FB82E218F6100B92238 /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				52CF5FBE2E2190ED00B92238 /* ViewModel */,
+				52CF5FBB2E21905100B92238 /* View */,
+				52CF5FB92E218F7400B92238 /* Models */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		52CF5FB92E218F7400B92238 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5262244A2E1DBB8D0095FF66 /* MNews.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52CF5FBA2E218FC300B92238 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				526224892E1EB5370095FF66 /* Theme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		52CF5FBB2E21905100B92238 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52CF5FBD2E2190BC00B92238 /* Cells& ReusableViews */,
+				526224872E1EB3C50095FF66 /* ImagePreviewViewController.swift */,
+				526224852E1EB2820095FF66 /* PostDetailViewController.swift */,
+				5262247E2E1DC8910095FF66 /* FeedViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		52CF5FBD2E2190BC00B92238 /* Cells& ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				5262247C2E1DC4180095FF66 /* PostTableViewCell.swift */,
+				52CF5FC92E2241BB00B92238 /* FooterView.swift */,
+			);
+			path = "Cells& ReusableViews";
+			sourceTree = "<group>";
+		};
+		52CF5FBE2E2190ED00B92238 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				526224782E1DC07D0095FF66 /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		52CF5FBF2E21915C00B92238 /*  Extensions&Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5262248D2E1EC1CB0095FF66 /* UIImageView+Extensions.swift */,
+				5262248B2E1EBD320095FF66 /* UIView+Styles.swift */,
+			);
+			path = " Extensions&Helpers";
+			sourceTree = "<group>";
+		};
+		52CF5FC02E21A49B00B92238 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				526224742E1DBD0E0095FF66 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		52CF5FC12E21B33B00B92238 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				526224762E1DBEBD0095FF66 /* CoreDataManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		52CF5FC82E223C2000B92238 /* resourses */ = {
+			isa = PBXGroup;
+			children = (
+				52CF5FC62E22312E00B92238 /* loading.json */,
+			);
+			path = resourses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +287,9 @@
 			dependencies = (
 			);
 			name = MNews;
+			packageProductDependencies = (
+				526224812E1DDC010095FF66 /* Lottie */,
+			);
 			productName = MNews;
 			productReference = 5262243E2E1DBB8D0095FF66 /* MNews.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +362,9 @@
 				Base,
 			);
 			mainGroup = 526224352E1DBB8D0095FF66;
+			packageReferences = (
+				526224802E1DDC010095FF66 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5262243F2E1DBB8D0095FF66 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +381,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CE123B2E22D42F0093E9BA /* 1.png in Resources */,
 				526224512E1DBB8F0095FF66 /* LaunchScreen.storyboard in Resources */,
 				5262244E2E1DBB8F0095FF66 /* Assets.xcassets in Resources */,
+				52CE123A2E22D42F0093E9BA /* 2.png in Resources */,
 				526224492E1DBB8D0095FF66 /* Main.storyboard in Resources */,
+				52CE12382E22D42F0093E9BA /* 5.png in Resources */,
+				52CE12372E22D42F0093E9BA /* 4.png in Resources */,
+				52CE12392E22D42F0093E9BA /* 3.png in Resources */,
+				52CF5FC72E22312E00B92238 /* loading.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +414,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526224792E1DC07D0095FF66 /* FeedViewModel.swift in Sources */,
+				5262247F2E1DC8910095FF66 /* FeedViewController.swift in Sources */,
+				526224772E1DBEBD0095FF66 /* CoreDataManager.swift in Sources */,
 				5262244C2E1DBB8D0095FF66 /* MNews.xcdatamodeld in Sources */,
+				5262247D2E1DC4180095FF66 /* PostTableViewCell.swift in Sources */,
 				526224462E1DBB8D0095FF66 /* ViewController.swift in Sources */,
+				526224752E1DBD0E0095FF66 /* NetworkManager.swift in Sources */,
+				526224862E1EB2820095FF66 /* PostDetailViewController.swift in Sources */,
+				5262248E2E1EC1CB0095FF66 /* UIImageView+Extensions.swift in Sources */,
 				526224422E1DBB8D0095FF66 /* AppDelegate.swift in Sources */,
+				5262248A2E1EB5370095FF66 /* Theme.swift in Sources */,
+				526224882E1EB3C50095FF66 /* ImagePreviewViewController.swift in Sources */,
+				5262248C2E1EBD320095FF66 /* UIView+Styles.swift in Sources */,
 				526224442E1DBB8D0095FF66 /* SceneDelegate.swift in Sources */,
+				52CF5FCA2E2241BB00B92238 /* FooterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +770,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		526224802E1DDC010095FF66 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		526224812E1DDC010095FF66 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 526224802E1DDC010095FF66 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5262244A2E1DBB8D0095FF66 /* MNews.xcdatamodeld */ = {

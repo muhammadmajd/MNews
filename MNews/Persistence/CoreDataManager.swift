@@ -28,7 +28,48 @@ class CoreDataManager {
     }
 
     // Save posts from the API, avoiding duplicates.
-    func savePosts(from apiPosts: [PostAPIModel]) {
+   
+    func savePosts(from apiPosts: [PostAPIModel], completion: @escaping () -> Void) {
+        // Perform the context operations on its own queue to ensure thread safety.
+        context.perform {
+            let fetchRequest: NSFetchRequest<Post> = Post.fetchRequest()
+            fetchRequest.propertiesToFetch = ["id"]
+            
+            do {
+                let existingPosts = try self.context.fetch(fetchRequest)
+                let existingPostIDs = Set(existingPosts.map { $0.id })
+
+                for apiPost in apiPosts {
+                    if !existingPostIDs.contains(Int64(apiPost.id)) {
+                        let newPost = Post(context: self.context)
+                        newPost.id = Int64(apiPost.id)
+                        newPost.userId = Int64(apiPost.userId)
+                        newPost.title = apiPost.title
+                        newPost.body = apiPost.body
+                        newPost.isLiked = false
+                    }
+                }
+                
+                if self.context.hasChanges {
+                    try self.context.save()
+                }
+                
+                // CRITICAL: Call the completion handler after the work is done.
+                // Dispatch to main thread in case the caller wants to do UI work.
+                DispatchQueue.main.async {
+                    completion()
+                }
+                
+            } catch {
+                print("Failed to save or fetch in CoreDataManager: \(error)")
+                // Still call completion on failure so the app doesn't hang.
+                DispatchQueue.main.async {
+                    completion()
+                }
+            }
+        }
+    }
+    func savePostssss(from apiPosts: [PostAPIModel]) {
         context.perform {
             do {
                 // To avoid duplicates, get all existing post IDs
@@ -87,4 +128,6 @@ class CoreDataManager {
             print("Failed to update like status: \(error)")
         }
     }
+    
+    
 }

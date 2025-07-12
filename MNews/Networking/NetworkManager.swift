@@ -24,9 +24,8 @@ class NetworkManager {
     static let shared = NetworkManager()
     private init() {}
 
-   // private let baseURL = "https://jsonplaceholder.typicode.com"
-    private let baseURL = "https://jsonplaceholder.typicode.com/posts"
-    //
+    private let baseURL = "https://jsonplaceholder.typicode.com"
+  
     
     //fetchPosts: Uses URLSession to fetch data. It takes page and limit for pagination (bonus task!). It uses a Result type in its completion handler, which is a modern Swift pattern for handling success or failure.
     func fetchPosts(page: Int, limit: Int = 20, completion: @escaping (Result<[PostAPIModel], NetworkError>) -> Void) {

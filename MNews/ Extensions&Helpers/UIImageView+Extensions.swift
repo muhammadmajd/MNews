@@ -1,6 +1,5 @@
 //
 //  UIImageView+Extensions.swift
-//  SocialFeedApp
 //
 
 import UIKit

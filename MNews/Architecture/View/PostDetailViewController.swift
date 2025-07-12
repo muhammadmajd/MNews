@@ -1,8 +1,4 @@
-//
-//  PostDetailViewController.swift
-//  SocialFeedApp
-//
-
+ 
 import UIKit
 
 class PostDetailViewController: UIViewController {
